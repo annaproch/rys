@@ -1,0 +1,25 @@
+{"doc_id": 50, "rys_correct": true, "rys_reasoning": "RYS gives -2.92% (decrease), matching gold -0.02918.", "base_correct": false, "base_reasoning": "Base response is truncated mid-formula and never finalizes the answer."}
+{"doc_id": 51, "rys_correct": false, "rys_reasoning": "RYS answers 38.6, gold is 4.6 — mismatch.", "base_correct": false, "base_reasoning": "Base answers 38.6, gold is 4.6 — mismatch."}
+{"doc_id": 52, "rys_correct": true, "rys_reasoning": "RYS answers $299,999,990.40 matching gold 299999990.4.", "base_correct": true, "base_reasoning": "Base gives $299,999,990.40 (with approx note), matching gold."}
+{"doc_id": 53, "rys_correct": false, "rys_reasoning": "RYS answers ~$7.47, gold is 1e-05 (likely a tiny per-share figure) — mismatch.", "base_correct": false, "base_reasoning": "Base answers $7.27, gold is 1e-05 — mismatch."}
+{"doc_id": 54, "rys_correct": true, "rys_reasoning": "RYS answers ~12.2% matching gold 0.12204.", "base_correct": true, "base_reasoning": "Base answers ~12.2% matching gold 0.12204."}
+{"doc_id": 55, "rys_correct": true, "rys_reasoning": "RYS answers ~3.83% (0.03825) matching gold.", "base_correct": true, "base_reasoning": "Base answers ~3.83% (0.03825) matching gold."}
+{"doc_id": 56, "rys_correct": true, "rys_reasoning": "RYS answers ~10.56% matching gold 0.10563.", "base_correct": true, "base_reasoning": "Base answers ~10.56% matching gold 0.10563."}
+{"doc_id": 57, "rys_correct": true, "rys_reasoning": "RYS answers ~9.58% matching gold 0.09583.", "base_correct": false, "base_reasoning": "Base response is truncated reasoning without final answer."}
+{"doc_id": 58, "rys_correct": true, "rys_reasoning": "RYS answers ~41.94% matching gold 0.41935.", "base_correct": false, "base_reasoning": "Base response is truncated mid-thought without final answer."}
+{"doc_id": 59, "rys_correct": false, "rys_reasoning": "RYS answers 527,389, gold is 850,636 — mismatch (likely misread share counts).", "base_correct": false, "base_reasoning": "Base answers 527,389, gold is 850,636 — mismatch."}
+{"doc_id": 60, "rys_correct": true, "rys_reasoning": "RYS answers ~27.27% matching gold 0.27273.", "base_correct": false, "base_reasoning": "Base response is truncated reasoning without final delivered answer."}
+{"doc_id": 61, "rys_correct": true, "rys_reasoning": "RYS answers 9.8 matching gold 9.8.", "base_correct": true, "base_reasoning": "Base answers 9.8 matching gold."}
+{"doc_id": 62, "rys_correct": true, "rys_reasoning": "RYS answers $373,153,158.30 matching gold 373153158.3.", "base_correct": true, "base_reasoning": "Base answers $373,153,158.30 matching gold."}
+{"doc_id": 63, "rys_correct": true, "rys_reasoning": "RYS answers $18 million matching gold 18.0.", "base_correct": true, "base_reasoning": "Base answers $18 million matching gold."}
+{"doc_id": 64, "rys_correct": true, "rys_reasoning": "RYS answers ~101.6% (1.0157) matching gold 1.01571.", "base_correct": true, "base_reasoning": "Base answers ~101.57% matching gold 1.01571."}
+{"doc_id": 65, "rys_correct": true, "rys_reasoning": "RYS clearly answers yes, matching gold.", "base_correct": true, "base_reasoning": "Base clearly answers yes, matching gold."}
+{"doc_id": 66, "rys_correct": true, "rys_reasoning": "RYS answers ~53.7% matching gold 0.53704.", "base_correct": true, "base_reasoning": "Base answers ~53.7% matching gold 0.53704."}
+{"doc_id": 67, "rys_correct": true, "rys_reasoning": "RYS answers ~82.69% matching gold 0.82686.", "base_correct": true, "base_reasoning": "Base answers ~82.7% matching gold 0.82686."}
+{"doc_id": 68, "rys_correct": true, "rys_reasoning": "RYS answers $60.375 million matching gold 60375000.0.", "base_correct": true, "base_reasoning": "Base answers $60,375,000 matching gold."}
+{"doc_id": 69, "rys_correct": true, "rys_reasoning": "RYS answers 28.71% matching gold 0.28713.", "base_correct": false, "base_reasoning": "Base response is truncated before delivering the final answer."}
+{"doc_id": 70, "rys_correct": true, "rys_reasoning": "RYS answers 7.29% matching gold 0.07288.", "base_correct": true, "base_reasoning": "Base answers ~7.29% matching gold 0.07288."}
+{"doc_id": 71, "rys_correct": true, "rys_reasoning": "RYS answers -17.59% (decrease) matching gold -0.17588.", "base_correct": true, "base_reasoning": "Base answers -17.6% (decrease) matching gold -0.17588."}
+{"doc_id": 72, "rys_correct": true, "rys_reasoning": "RYS answers ~99.51% matching gold 0.99509.", "base_correct": true, "base_reasoning": "Base answers ~99.51% matching gold 0.99509."}
+{"doc_id": 73, "rys_correct": true, "rys_reasoning": "RYS answers 60.8% matching gold 0.608.", "base_correct": false, "base_reasoning": "Base response is truncated thinking with no final delivered answer."}
+{"doc_id": 74, "rys_correct": true, "rys_reasoning": "RYS answers $101 matching gold 101.0.", "base_correct": true, "base_reasoning": "Base answers $101 matching gold 101.0."}

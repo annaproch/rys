@@ -15,7 +15,7 @@ generation_kwargs:
     - "\n\nQuestion:"
     - "\nContext:"
     - "\n\nContext:"
-  max_gen_toks: 768
+  max_gen_toks: 1500
   do_sample: false
   temperature: 0.0
 
