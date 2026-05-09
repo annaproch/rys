@@ -12,3 +12,6 @@ wheels/
 # Runtime artifacts
 *.log
 .DS_Store
+
+# Eval output (lm-eval-harness writes per-run JSONL + JSON here)
+runs/

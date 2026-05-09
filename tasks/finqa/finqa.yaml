@@ -1,0 +1,38 @@
+task: finqa
+dataset_path: ChanceFocus/flare-finqa
+test_split: test
+training_split: train
+fewshot_split: train
+
+output_type: generate_until
+
+doc_to_text: !function utils.doc_to_text
+doc_to_target: !function utils.doc_to_target
+
+generation_kwargs:
+  until:
+    - "\nQuestion:"
+    - "\n\nQuestion:"
+    - "\nContext:"
+    - "\n\nContext:"
+  max_gen_toks: 768
+  do_sample: false
+  temperature: 0.0
+
+process_results: !function utils.process_results
+
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_loose
+    aggregation: mean
+    higher_is_better: true
+
+metadata:
+  version: 0.1
+  description: |
+    FinQA (Chen et al., EMNLP 2021) numerical reasoning over earnings reports.
+    Uses the FLARE mirror at ChanceFocus/flare-finqa, which preformats prompts
+    and canonicalises gold answers to plain decimal strings. Scoring is
+    numerical match with 1% relative tolerance (acc) and 5% (acc_loose).
