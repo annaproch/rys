@@ -1,0 +1,27 @@
+[project]
+name = "rys"
+version = "0.1.0"
+description = "Local OpenAI-compatible serving of dnhkng/RYS-Qwen3.5-27B-FP8-M on Apple Silicon"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=1.13.0",
+    "fastapi>=0.136.1",
+    "hf-transfer>=0.1.9",
+    "huggingface-hub[cli]>=1.14.0",
+    "openai>=2.36.0",
+    "pillow>=12.2.0",
+    "protobuf>=7.34.1",
+    "safetensors>=0.7.0",
+    "sentencepiece>=0.2.1",
+    "sse-starlette>=3.4.2",
+    "tiktoken>=0.12.0",
+    "torch>=2.5",
+    "torchaudio>=2.11.0",
+    "torchvision>=0.26.0",
+    "transformers",
+    "uvicorn[standard]>=0.46.0",
+]
+
+[tool.uv.sources]
+transformers = { git = "https://github.com/huggingface/transformers" }
